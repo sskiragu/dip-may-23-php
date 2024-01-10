@@ -27,6 +27,10 @@ echo "<br>";
     # associative
     $user_input = array("username" => "John", "email" => "john@gmail.com", "password" => "John$$0000");
     var_dump($user_input);
+
+    echo "<br>";
 // 6. object
 // 7. null
+$cart = null;
+var_dump($cart);
 // 8. resource
