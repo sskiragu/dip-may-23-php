@@ -46,7 +46,8 @@
                 $selected_options =  $_GET['id'];
                 switch ($selected_options) {
                     case 'users':
-                        echo "Users";
+                        // 1. include 2. require
+                        include_once 'users.php';
                         break;
                     case 'roles':
                         echo "Roles and Permissions";
